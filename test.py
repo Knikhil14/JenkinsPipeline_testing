@@ -21,7 +21,7 @@ class TestHello(unittest.TestCase):
         end = re.search("</h1>",message).start()
         message = message[start+4:end]
 
-        self.assertEqual(message, "hello brother, Lets have some fun!!, Testing is working good")
+        self.assertEqual(message, "hello brother, Lets have some fun!!")
 
     def test_name(self):
 

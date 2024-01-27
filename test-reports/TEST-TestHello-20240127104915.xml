@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<testsuite name="TestHello-20240127104915" tests="2" time="0.012" failures="0" errors="1">
+	<testcase classname="TestHello" name="test_name" time="0.002"/>
+	<testcase classname="TestHello" name="test_hello" time="0.011">
+		<error type="AssertionError" message="'hello brother, Lets have some fun!!' != 'hello brother, Lets have some fun!!, Testing is working good'
+- hello brother, Lets have some fun!!
++ hello brother, Lets have some fun!!, Testing is working good
+"><![CDATA[Traceback (most recent call last):
+  File "/home/ubuntu/JenkinsPipeline_testing/test.py", line 24, in test_hello
+    self.assertEqual(message, "hello brother, Lets have some fun!!, Testing is working good")
+AssertionError: 'hello brother, Lets have some fun!!' != 'hello brother, Lets have some fun!!, Testing is working good'
+- hello brother, Lets have some fun!!
++ hello brother, Lets have some fun!!, Testing is working good
+
+]]></error>
+	</testcase>
+	<system-out><![CDATA[]]></system-out>
+	<system-err><![CDATA[]]></system-err>
+</testsuite>
